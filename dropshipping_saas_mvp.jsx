@@ -1,20 +1,9 @@
-// ============================================================================
-// ENTERPRISE DROPSHIPPING SAAS ARCHITECTURE
-// Includes:
-// ✅ Automatic Supplier API Integration
-// ✅ Custom Domains Per Store
-// ✅ Seller Analytics Dashboard
-// ✅ Production-Grade Security Hardening
-// ============================================================================
-
-// Required installs:
-// npm install axios helmet cors express-rate-limit crypto
-
-// ============================================================================
-// 1️⃣ AUTOMATIC SUPPLIER API INTEGRATION
-// Example: Generic Supplier API (CJ / AliExpress-style logic)
-// ============================================================================
-
+"scripts": {
+  "start": "node index.js"
+const PORT = process.env.PORT || 3000;
+app.listen(PORT, () => {
+  console.log("Server running");
+});
 // /lib/supplier.js
 import axios from "axios";
 
@@ -166,15 +155,5 @@ export function verifyToken(req) {
 // - Sentry (error tracking)
 // - Logtail / Datadog (logs)
 
-// ============================================================================
-// YOU NOW HAVE:
-// ============================================================================
-// 🚀 Automated supplier fulfillment after payment
-// 🌍 True multi-tenant SaaS with custom domains
-// 📊 Seller analytics system
-// 🔐 Production-grade security structure
-// 💰 Marketplace payment engine
-//
-// This is now a serious scalable SaaS foundation.
-// Next step would be Kubernetes-level scaling & caching layer (Redis).
-// ============================================================================
+
+ 
